@@ -1,0 +1,12 @@
+DGMS STATUTORY SAFETY GUIDELINES & COAL MINES REGULATIONS (CMR) / METALLIFEROUS MINES REGULATIONS (MMR)
+
+1. STATUTORY PPE REQUIREMENT - PROTECTIVE HEADGEAR (HELMETS):
+- Regulation & Rule: Under Regulation 191 of MMR / Regulation 202 of CMR and DGMS (Tech) Circular No. 04, no person shall enter, be permitted to enter, or work in any mine or part of a mine without wearing an approved type of protective footwear and rigid safety helmet/hard hat.
+- Hazard Classification: Critical Head Trauma, falling rock/debris hazard, low clearance structural impact.
+- Required Action: Immediate withdrawal from active work zones. Supervisory personnel (Mining Sirdar / Mate / Overman) must issue an approved industrial safety helmet conforming to IS:2925 standards before re-entry.
+- Penal Consequences: Breach constitutes a compoundable offense under Section 72C of the Mines Act, 1952. Repeated willful non-compliance empowers the Mine Manager to suspend the workman pending disciplinary inquiry.
+
+2. STATUTORY PPE REQUIREMENT - HIGH VISIBILITY REFLECTIVE APPAREL:
+- Regulation & Rule: In all opencast workings, heavy earth moving machinery (HEMM) movement corridors, loading points, and dump yards, wearing high-visibility retro-reflective vests conforming to EN ISO 20471 / IS 15809 is mandatory.
+- Hazard Classification: Struck-by haul truck/dumper, blind spot entrapment during night or low-illumination operations.
+- Required Action: Worker must not enter haulage roads or machinery swing radiuses without reflective gear.
