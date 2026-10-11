@@ -133,6 +133,6 @@ MAILERS = {
 
 # CORS Configuration for Angular frontend
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:4200",
+    "https://mineguard-ui.vercel.app/",
 ]
 CORS_ALLOW_ALL_ORIGINS = True  # Useful during local development
