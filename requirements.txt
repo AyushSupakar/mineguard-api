@@ -8,3 +8,4 @@ gunicorn
 ultralytics
 langchain-google-genai
 opencv-python-headless
+python-dotenv
