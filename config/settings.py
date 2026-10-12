@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-632_$&sw+omy67v+41*nmissxc4+n@^#l99cv7xp#f+eg27e66
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['mineguard-api-i5t1.onrender.com', 'localhost', '127.0.0.1']
+# Or simply ALLOWED_HOSTS = ['*'] if you want to allow any host
 
 
 # Application definition
@@ -41,9 +42,14 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'auditor',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
+    'django.middleware.security.SecurityMiddleware',
+    'corsheaders.middleware.CorsMiddleware',  # Add this right here!
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'corsheaders.middleware.CorsMiddleware',  # Add this line
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -134,5 +140,6 @@ MAILERS = {
 # CORS Configuration for Angular frontend
 CORS_ALLOWED_ORIGINS = [
     "https://mineguard-ui.vercel.app",
+    "http://localhost:4200",
 ]
 CORS_ALLOW_ALL_ORIGINS = True  # Useful during local development
