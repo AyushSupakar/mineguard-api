@@ -8,16 +8,12 @@ from ultralytics import YOLO
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
 from dotenv import load_dotenv
-import torch
-from ultralytics import YOLO
-import cv2
 
 load_dotenv()
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODEL_PATH = os.path.join(BASE_DIR, "yolov8_ppe.pt")
 RULES_PATH = os.path.join(BASE_DIR, "data", "mining_safety_rules.txt")
-torch.set_num_threads(1)
 
 # Load YOLO model
 model = YOLO(MODEL_PATH)
